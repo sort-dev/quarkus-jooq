@@ -7,6 +7,11 @@ Which has flaws that are not yet being addressed by the contributors (see [issue
 
 Releases are available from JitPack: https://jitpack.io/#sort-dev/quarkus-jooq
 
+Add maven repo to your build:
+```
+"https://jitpack.io"
+```
+
 Latest release dependency:
 ```
 com.github.sort-dev:quarkus-jooq:0.1.1

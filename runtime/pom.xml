@@ -4,8 +4,8 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.github.sort-dev.quarkus-jooq</groupId>
-    <artifactId>quarkus-jooq-parent</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <artifactId>jooq-parent</artifactId>
+    <version>0.1.2-SNAPSHOT</version>
   </parent>
   <artifactId>jooq</artifactId>
   <name>Quarkus Jooq - Runtime</name>
