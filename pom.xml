@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.sort-dev.quarkus-jooq</groupId>
-  <artifactId>quarkus-jooq-parent</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <artifactId>jooq-parent</artifactId>
+  <version>main-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Quarkus Jooq - Parent</name>
   <modules>
@@ -19,6 +19,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <quarkus.version>2.9.0.Final</quarkus.version>
+    <jooq.version>3.16.6</jooq.version>
     <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
   </properties>
   <dependencyManagement>
@@ -69,6 +70,9 @@
             <compilerArgs>
               <arg>-parameters</arg>
             </compilerArgs>
+            <source>11</source>
+            <target>11</target>
+            <release>11</release>
           </configuration>
         </plugin>
       </plugins>

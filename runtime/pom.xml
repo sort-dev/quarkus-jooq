@@ -4,15 +4,41 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.github.sort-dev.quarkus-jooq</groupId>
-    <artifactId>quarkus-jooq-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <artifactId>jooq-parent</artifactId>
+    <version>main-SNAPSHOT</version>
   </parent>
-  <artifactId>quarkus-jooq</artifactId>
+  <artifactId>jooq</artifactId>
   <name>Quarkus Jooq - Runtime</name>
   <dependencies>
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-arc</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-agroal</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-narayana-jta</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.graalvm.nativeimage</groupId>
+      <artifactId>svm</artifactId>
+    </dependency>
+
+    <!-- jooq dependencies -->
+    <dependency>
+      <groupId>org.jooq</groupId>
+      <artifactId>jooq</artifactId>
+      <version>${jooq.version}</version>
+    </dependency>
+
+    <!-- native image work around in jooq -->
+    <dependency>
+      <groupId>org.hibernate.javax.persistence</groupId>
+      <artifactId>hibernate-jpa-2.1-api</artifactId>
+      <version>1.0.2</version>
     </dependency>
   </dependencies>
   <build>
