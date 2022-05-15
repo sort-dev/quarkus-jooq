@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.github.sort-dev.quarkus-jooq</groupId>
-    <artifactId>jooq-parent</artifactId>
+    <groupId>com.github.sort-dev</groupId>
+    <artifactId>quarkus-jooq-parent</artifactId>
     <version>main-SNAPSHOT</version>
   </parent>
-  <artifactId>jooq-integration-tests</artifactId>
+  <artifactId>quarkus-jooq-integration-tests</artifactId>
   <name>Quarkus Jooq - Integration Tests</name>
   <dependencies>
     <dependency>
