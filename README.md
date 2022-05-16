@@ -14,7 +14,7 @@ Add maven repo to your build:
 
 Latest release dependency:
 ```
-com.github.sort-dev:quarkus-jooq:0.1.1
+com.github.sort-dev:quarkus-jooq:0.1.4
 ```
 
 !! Work in Progress !!
