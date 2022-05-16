@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.sort-dev.quarkus-jooq</groupId>
   <artifactId>jooq-parent</artifactId>
-  <version>0.1.4</version>
+  <version>0.1.5</version>
   <packaging>pom</packaging>
   <name>Quarkus Jooq - Parent</name>
   <modules>
@@ -19,7 +19,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <quarkus.version>2.9.0.Final</quarkus.version>
-    <jooq.version>3.16.6</jooq.version>
+    <jooq.version>3.15.5</jooq.version>
     <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
   </properties>
   <dependencyManagement>

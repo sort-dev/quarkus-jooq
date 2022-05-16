@@ -13,23 +13,23 @@ public class ConnectionBean {
     private static final Logger LOGGER = Logger.getLogger(ConnectionBean.class);
 
     @Inject
-    private DSLContext defaultUsingDefaultDataSource;
+    DSLContext defaultUsingDefaultDataSource;
 
     @Inject
     @Named("dslwithdefault")
-    private DSLContext namedUsingDefaultDataSource;
+    DSLContext namedUsingDefaultDataSource;
 
     @Inject
     @Named("dslwithdb1")
-    private DSLContext namedUsingDb1DataSrouce;
+    DSLContext namedUsingDb1DataSrouce;
 
     @Inject
     @Named("dslinjectconfig")
-    private DSLContext namedUsingInjectedConfigurator;
+    DSLContext namedUsingInjectedConfigurator;
 
     @Inject
     @Named("dslclassconfig")
-    private DSLContext namedUsingSpecifiedConfigurator;
+    DSLContext namedUsingSpecifiedConfigurator;
 
     public DSLContext getDefaultUsingDefaultDataSource() {
         return defaultUsingDefaultDataSource;
