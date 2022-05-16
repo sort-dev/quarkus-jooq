@@ -14,7 +14,7 @@ Add maven repo to your build:
 
 Latest release dependency:
 ```
-com.github.sort-dev:quarkus-jooq:0.1.5
+com.github.sort-dev:quarkus-jooq:0.1.6
 ```
 This works with JOOQ 3.15.5 and Quarkus 2.9.0-FINAL, those before the `javax.*` to `jakarta.*` changes.
 

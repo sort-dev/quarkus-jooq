@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.github.sort-dev.quarkus-jooq</groupId>
     <artifactId>jooq-parent</artifactId>
-    <version>0.1.5</version>
+    <version>0.1.6</version>
   </parent>
   <artifactId>jooq</artifactId>
   <name>Quarkus Jooq - Runtime</name>
@@ -30,11 +30,16 @@
       <version>${jooq.version}</version>
     </dependency>
 
-    <!-- native image work around in jooq -->
+    <!-- native image helpers as-of JOOQ 3.15.x -->
     <dependency>
       <groupId>org.hibernate.javax.persistence</groupId>
       <artifactId>hibernate-jpa-2.1-api</artifactId>
       <version>1.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.graalvm.nativeimage</groupId>
+      <artifactId>svm</artifactId>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
   <build>
