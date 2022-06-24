@@ -16,6 +16,8 @@ Latest release dependency:
 ```
 com.github.sort-dev:quarkus-jooq:0.2.0
 ```
-This version works with JOOQ 3.16.7 and Quarkus 2.10.0-FINAL.
+This version works with JOOQ 3.16.7 and Quarkus 2.10.0.FINAL.
+
+For Quarkus 2.9.0.Final and JOOQ 3.16.x use version `0.1.6` of this plugin.
 
 !! Work in Progress !!
