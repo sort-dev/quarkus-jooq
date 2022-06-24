@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.github.sort-dev.quarkus-jooq</groupId>
     <artifactId>jooq-parent</artifactId>
-    <version>0.1.6</version>
+    <version>0.2.0</version>
   </parent>
   <artifactId>jooq</artifactId>
   <name>Quarkus Jooq - Runtime</name>
